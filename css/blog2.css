@@ -7,11 +7,11 @@ body {
 }
 
 main {
-  padding: 40px 0;
+  padding: 40px 120px;
 }
 
 article {
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -89,4 +89,10 @@ li {
 
 .conclusion-section {
   margin-top: 40px;
+}
+
+@media screen and (max-width: 431px) {
+  main {
+    padding-inline: 50px;
+  }
 }

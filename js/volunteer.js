@@ -4,7 +4,7 @@ var btn = document.getElementById("volBtn");
 var subModal = document.getElementById("pop-up-volunteerForm");
 var submitBtn = document.getElementById("subBtn");
 
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("volClose")[0];
 
 btn.onclick = function () {
   modal.style.display = "block";
@@ -16,7 +16,6 @@ span.onclick = function () {
 
 submitBtn.onsubmit = function (event) {
   event.preventDefault();
-  console.log("hello");
 
   subModal.style.display = "block";
   setTimeout(timeOut, 1500);

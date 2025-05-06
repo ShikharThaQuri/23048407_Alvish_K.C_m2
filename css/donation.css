@@ -22,9 +22,7 @@
   align-items: center;
   color: white;
   gap: 20px;
-}
-.donationsectionTwo h1 {
-  margin-right: 30px;
+  padding-inline: 30px;
 }
 
 .donationsectionTwo div {
@@ -62,11 +60,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-inline: 30px;
   color: white;
 }
-.donationsectionThree h1 {
-  margin-right: 30px;
-}
+
 .donationsectionThree div button {
   font-size: 15px;
+}
+
+@media screen and (max-width: 864px) {
+  .donationsectionOne,
+  .donationsectionTwo,
+  .donationsectionThree {
+    height: 50vh;
+  }
+
+  .donationsectionTwo,
+  .donationsectionThree {
+    flex-direction: column;
+  }
 }

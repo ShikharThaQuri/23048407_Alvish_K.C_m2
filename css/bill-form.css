@@ -29,9 +29,12 @@ body {
 form {
   display: flex;
   justify-content: center;
-  align-items: center;
 
   padding: 50px 0;
+}
+
+form .mainFormDiv {
+  width: 100%;
 }
 
 form .mainFormDivFirst {
@@ -46,10 +49,12 @@ form .one {
   align-items: center;
   margin-block: 10px 20px;
   gap: 10px;
+  width: 100%;
 }
 form .two {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 form label {
@@ -61,6 +66,7 @@ select {
   font-size: 16px;
   padding: 6px 5px;
   outline: none;
+  width: 100%;
 }
 
 .buttonDiv {
@@ -93,4 +99,14 @@ select {
   padding: 10px 20px;
   font-size: 15px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 864px) {
+  form .one {
+    flex-direction: column;
+  }
+
+  form {
+    padding-inline: 50px;
+  }
 }

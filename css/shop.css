@@ -21,26 +21,26 @@ body {
 }
 
 .featured-section {
-  padding: 10px 40px;
+  padding: 10px 0;
 }
 
 .featured-product {
   display: flex;
+  gap: 90px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  padding-inline: 120px;
   background-color: antiquewhite;
-  border-radius: 8px;
-  overflow: hidden;
   margin-bottom: 50px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 90px;
 }
 
 .featured-image {
   height: 400px;
   flex: 1;
   max-width: 100%;
+  min-width: 400px;
 }
 
 .featured-image img {
@@ -51,7 +51,8 @@ body {
 
 .featured-content {
   flex: 1;
-  padding: 30px 40px;
+  max-width: 100%;
+  min-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,25 +70,24 @@ body {
 }
 
 .products-section {
-  padding: 20px 0 60px;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);  /* 1fr is a  fraction, a part of the section */
+  padding: 50px 120px;
+  display: flex;
   gap: 30px;
-  margin: 0 auto;
-  max-width: 1100px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .product-card {
+  flex: 1;
+  max-width: 100%;
+  min-width: 200px;
+
   background-color: #fff;
-  border-radius: 8px;
-  overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   height: 100%;
   display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
 }
 
@@ -108,9 +108,10 @@ body {
 
 .product-content {
   padding: 20px;
-  flex-grow: 1;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
+  height: 250px;
 }
 
 .product-content h3 {
@@ -123,8 +124,6 @@ body {
   font-size: 14px;
   color: #666;
   margin-bottom: 15px;
-  min-height: 60px;
-  flex-grow: 1;
 }
 
 .buy-btn {
@@ -136,9 +135,9 @@ body {
   cursor: pointer;
   font-size: 14px;
   transition: background-color 0.3s;
-  width: 30%;
   text-align: center;
   font-weight: 500px;
+  white-space: nowrap;
 }
 .buy-btn a {
   color: white;
@@ -147,4 +146,16 @@ body {
 
 .buy-btn:hover {
   background-color: #8caca7;
+}
+
+@media screen and (max-width: 431px) {
+  .featured-image,
+  .featured-content {
+    min-width: 200px;
+  }
+
+  .featured-product,
+  .products-section {
+    padding-inline: 50px;
+  }
 }

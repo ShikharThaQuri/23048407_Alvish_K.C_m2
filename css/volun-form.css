@@ -1,5 +1,5 @@
 .pop-up-volunteerForm {
-  display: none;
+  /* display: none; */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -72,4 +72,14 @@ form input {
   border-style: solid;
   background-color: red;
   color: white;
+}
+
+@media screen and (max-width: 864px) {
+  form .one {
+    flex-direction: column;
+  }
+
+  .Volunteer {
+    padding-inline: 50px;
+  }
 }
