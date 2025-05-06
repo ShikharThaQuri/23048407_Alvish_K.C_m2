@@ -1,0 +1,111 @@
+.pop-up-feedback {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px 15px;
+  background-color: #fefefe;
+  z-index: 50;
+
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+}
+.pop-up-feedback img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contactsectionOne {
+  height: 100vh;
+
+  background-image: url(../assets/andrew-pons-oH9AuO20kbk-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-color: antiquewhite;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  z-index: 100;
+  height: 80%;
+  padding-left: 100px;
+}
+.heroSection p {
+  font-size: 30px;
+  color: white;
+}
+
+/* form */
+
+.contactForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 120px;
+  padding-block: 50px;
+
+  background-color: antiquewhite;
+}
+
+.left h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.left p {
+  margin-block: 10px;
+}
+
+.right {
+  width: 50%;
+}
+.right h1 {
+  margin-bottom: 30px;
+}
+.right form {
+  display: flex;
+  flex-direction: column;
+}
+.right form input {
+  margin-block: 10px 20px;
+  width: 100%;
+  font-size: 22px;
+  padding: 5px 10px;
+  outline: none;
+}
+.right form textarea {
+  width: 100%;
+  height: 100px;
+  margin-block: 10px 20px;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+.right div {
+  display: flex;
+  justify-content: left;
+}
+.right div input {
+  margin-right: 10px;
+  width: auto;
+  height: none;
+}
+.right div label {
+  margin-top: 7px;
+}
+
+.right button {
+  margin-top: 15px;
+  font-size: 15px;
+  background-color: #9dbdb8;
+  max-width: 100px;
+}

@@ -1,0 +1,72 @@
+.donationsectionOne {
+  height: 80vh;
+
+  background-image: url(../assets/angelina-litvin-xTJ4ZtPD__8-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-color: antiquewhite;
+}
+
+.donationsectionTwo {
+  height: 70vh;
+
+  background-image: url(../assets/manuel-meza-KvKop_a_EXw-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-color: antiquewhite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+.donationsectionTwo h1 {
+  margin-right: 30px;
+}
+
+.donationsectionTwo div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.donationsectionTwo div button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.donationsectionTwo div button a {
+  text-decoration: none;
+  color: white;
+}
+.sameButton2 {
+  background-color: #9dbdb8;
+  color: white;
+}
+
+.donationsectionThree {
+  height: 70vh;
+
+  background-image: url(../assets/vincent-van-zalinge-AjtGg8feZhg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-color: antiquewhite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.donationsectionThree h1 {
+  margin-right: 30px;
+}
+.donationsectionThree div button {
+  font-size: 15px;
+}

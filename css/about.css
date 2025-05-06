@@ -1,0 +1,102 @@
+.aboutsectionOne {
+  height: 100vh;
+
+  background-image: url(../assets/jana-shnipelson-j_Z5N9p_XOc-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-color: antiquewhite;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  z-index: 100;
+  height: 80%;
+}
+.heroSection p {
+  font-size: 30px;
+  color: white;
+}
+
+/* Our Team */
+
+.OurTeam {
+  padding-block: 50px;
+  padding-inline: 120px;
+  text-align: center;
+}
+.OurTeam h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.OurTeamFirst {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 50px 30px;
+  text-align: left;
+}
+
+.OurTeamFirst div img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.OurTeamFirst div {
+  width: 350px;
+}
+.OurTeamFirst div p {
+  margin-top: 10px;
+}
+.OurTeamFirst div .semiBold {
+  font-weight: bold;
+}
+
+.OurTeamSecond {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.OurTeamSecond div img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.OurTeamSecond div {
+  width: 350px;
+}
+.OurTeamSecond div p {
+  margin-top: 10px;
+}
+.OurTeamSecond div .semiBold {
+  font-weight: bold;
+}
+
+/* What we do */
+
+.WhatWeDo {
+  background-color: antiquewhite;
+  padding-block: 50px;
+}
+.WhatWeDo div {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+.WhatWeDo p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding-inline: 150px;
+}
+
+.WhatWeDo img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  object-position: center;
+  padding-block: 10px;
+}

@@ -1,0 +1,48 @@
+body {
+  background-color: antiquewhite;
+}
+
+.sectionTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 120px;
+  padding-block: 80px;
+}
+
+.sectionTwo .left {
+  flex: 1;
+  padding-inline: 50px;
+}
+.sectionTwo .left h1 {
+  font-size: 30px;
+}
+.sectionTwo .left h3 {
+  margin-block: 10px 20px;
+}
+.sectionTwo .left div hr {
+  margin-block: 10px 20px;
+}
+.sectionTwo .left button {
+  width: 50%;
+  padding: 10px 0;
+  background-color: #9dbdb8;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.sectionTwo .left button a {
+  text-decoration: none;
+  color: white;
+}
+
+.sectionTwo .right {
+  flex: 1;
+}
+
+.sectionTwo .right img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}

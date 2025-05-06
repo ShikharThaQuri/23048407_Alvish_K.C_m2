@@ -1,0 +1,75 @@
+.pop-up-volunteerForm {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px 15px;
+  background-color: #fefefe;
+  z-index: 50;
+
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+}
+.pop-up-volunteerForm img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.Volunteer {
+  padding: 50px 150px;
+  background-color: antiquewhite;
+}
+
+.Volunteer h1 {
+  margin-bottom: 10px;
+}
+
+.Volunteer form {
+  margin-top: 40px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+form .one {
+  display: flex;
+  width: 100%;
+}
+form .two {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form input {
+  flex: 1;
+  margin-right: 10px;
+  font-size: 25px;
+  padding: 5px 10px;
+  outline: none;
+  margin-block: 5px 25px;
+}
+
+.formButton {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.formButton .formButtonOne {
+  padding: 5px 14px;
+
+  background-color: none;
+  border-color: black;
+  border-style: solid;
+  margin-right: 10px;
+}
+.formButton .formButtonTwo {
+  padding: 5px 14px;
+  border-style: solid;
+  background-color: red;
+  color: white;
+}

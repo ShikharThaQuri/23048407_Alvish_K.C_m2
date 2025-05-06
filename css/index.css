@@ -1,0 +1,465 @@
+.pop-up-appointment {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px 15px;
+  background-color: #fefefe;
+  z-index: 50;
+
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+}
+.pop-up-appointment img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ------------------- Section OnE --------------- */
+.sectionOne {
+  position: relative;
+  height: 100vh;
+
+  background-image: url(../assets/shepherd-dog-4357790.jpg);
+  background-position: top;
+  background-size: cover;
+
+  background-color: antiquewhite;
+}
+
+.heroSection {
+  position: absolute;
+  bottom: 32px;
+  left: 150px;
+  z-index: 50;
+}
+.heroSection p {
+  line-height: 23px;
+  margin-bottom: 32px;
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* ------------------- Section TWo --------------- */
+
+.sectionTwo {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  padding-block: 50px;
+}
+
+.Two-firstDiv {
+  flex: 1;
+  max-width: 40%;
+  min-width: 300px;
+}
+@media screen and (max-width: 869px) {
+  .Two-firstDiv {
+    max-width: 100%;
+  }
+}
+
+.Two-firstDiv .two-heading {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.Two-firstDiv form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Two-firstDiv form label {
+  margin-top: 10px;
+}
+.Two-firstDiv form input {
+  margin: 4px 0 4px 0;
+  font-size: 20px;
+  padding: 6px 10px;
+  font-size: 16px;
+  outline: none;
+}
+.Two-firstDiv form .nameP,
+.selectPetP,
+.petGenderP,
+.petIssueP,
+.emailP {
+  opacity: 0;
+  color: red;
+}
+.Two-firstDiv form button {
+  margin-top: 10px;
+}
+
+.Two-secondDiv {
+  background-image: url(../assets/mateusz-wysocki-b97NoVaAICA-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  flex: 1;
+  max-width: 40%;
+  min-width: 300px;
+  height: 400px;
+  border-radius: 30px;
+  background-color: black;
+}
+@media screen and (max-width: 869px) {
+  .sectionTwo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: normal;
+  }
+
+  .Two-secondDiv {
+    flex: none;
+    max-width: 100%;
+    height: 300px;
+  }
+}
+
+.formButton {
+  display: flex;
+  justify-content: right;
+}
+
+.formButton .formButtonOne {
+  padding: 8px 13px;
+  background-color: white;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+
+  font-size: 15px;
+}
+
+/* ------------------- Section Three --------------- */
+
+.sectionThree {
+  background-color: antiquewhite;
+  height: 90vh;
+
+  background-image: url(../assets/madeline-bowen-uhKXeu2TWE0-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  position: relative;
+}
+
+.sectionThree div {
+  position: absolute;
+  left: 150px;
+  bottom: 30px;
+  color: white;
+  margin-right: 10px;
+}
+.sectionThree div p {
+  width: 80%;
+}
+.sectionThree div button {
+  margin-top: 20px;
+}
+
+/* ------------------- Section Four --------------- */
+
+.sectionFour {
+  text-align: center;
+  padding-block: 50px;
+  background-color: antiquewhite;
+}
+.sectionFour h1 {
+  font-size: 25px;
+}
+.sectionFour .imageDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0 35px 0;
+  gap: 25px;
+}
+.sectionFour div img {
+  flex: 1;
+  max-width: 45%;
+  min-width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sectionFour .pagDiv {
+  display: flex;
+  justify-content: center;
+
+  margin-block: 25px;
+}
+.sectionFour div p {
+  max-width: 800px;
+}
+
+@media screen and (max-width: 864px) {
+  .sectionFour div img {
+    min-width: auto;
+    max-width: 100%;
+    height: 250px;
+  }
+
+  .sectionFour div p {
+    max-width: 100%;
+    min-width: auto;
+  }
+}
+
+/* ------------------- Section Five --------------- */
+
+.sectionFive {
+  background-color: antiquewhite;
+  padding-block: 50px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.sectionFive .imageDiv {
+  max-width: 30%;
+  min-width: 300px;
+}
+.sectionFive .imageDiv img {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.sectionFive .pagDiv {
+  max-width: 40%;
+  min-width: 300px;
+}
+.sectionFive .pagDiv p {
+  width: 100%;
+  margin-block: 20px;
+}
+
+@media screen and (max-width: 864px) {
+  .sectionFive .imageDiv {
+    max-width: 100%;
+    min-width: auto;
+  }
+
+  .sectionFive .pagDiv {
+    max-width: 100%;
+    min-width: auto;
+    text-align: center;
+  }
+}
+/* ------------------- Section Six --------------- */
+
+.sectionSix {
+  background-color: antiquewhite;
+  text-align: center;
+  padding-block: 50px;
+}
+
+.sectionSix-three-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  margin-top: 35px;
+}
+.sectionSix-three-box .feaOne,
+.feaTwo,
+.feaThree {
+  border: 1px solid black;
+  flex: 1;
+  max-width: 100%;
+  min-width: 250px;
+  padding-bottom: 5px;
+}
+.sectionSix-three-box div img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.sectionSix-three-box div .feaPagDiv {
+  text-align: left;
+  padding: 10px 14px;
+}
+.sectionSix-three-box div .feaPagDiv p {
+  margin-block: 15px;
+  font-size: 12px;
+}
+.sectionSix-three-box div .feaPagDiv a {
+  background-color: #9dbdb8;
+  color: white;
+  padding: 8px 13px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/* ------------------- Section Seven --------------- */
+
+.sectionSeven {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-block: 50px;
+}
+
+.sectionSeven img {
+  max-width: 30%;
+  min-width: 300px;
+  height: 350px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 10px;
+}
+.sectionSeven div {
+  max-width: 40%;
+  min-width: 300px;
+}
+.sectionSeven div p {
+  margin-block: 18px;
+}
+
+@media screen and (max-width: 864px) {
+  .sectionSeven img {
+    max-width: 100%;
+    min-width: auto;
+  }
+
+  .sectionSeven div {
+    max-width: 100%;
+    min-width: auto;
+    text-align: center;
+  }
+}
+
+/* ------------------- Section Eight --------------- */
+
+.sectionEight {
+  background-color: antiquewhite;
+  padding-block: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+.sectionEight img {
+  max-width: 30%;
+  min-width: 300px;
+  height: 350px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 10px;
+}
+.sectionEight div {
+  max-width: 40%;
+  min-width: 300px;
+}
+.sectionEight div h1 {
+  margin-bottom: 25px;
+}
+.sectionEight div p {
+  margin-block: 10px 18px;
+}
+
+@media screen and (max-width: 864px) {
+  .sectionEight {
+    flex-direction: column-reverse;
+    align-items: normal;
+  }
+
+  .sectionEight img {
+    max-width: 100%;
+    min-width: auto;
+  }
+
+  .sectionEight div {
+    max-width: 100%;
+    min-width: auto;
+    text-align: center;
+  }
+}
+
+/* ------------------- all section inline padding -- */
+.sectionTwo,
+.sectionFour,
+.sectionFive,
+.sectionSix,
+.sectionSeven,
+.sectionEight {
+  padding-inline: 120px;
+}
+
+/* media */
+
+@media screen and (max-width: 869px) {
+  .sectionOne,
+  .sectionThree {
+    height: 60vh;
+  }
+
+  .heroSection,
+  .sectionThree div {
+    left: 80px;
+  }
+
+  .sectionTwo,
+  .sectionFour,
+  .sectionFive,
+  .sectionSix,
+  .sectionSeven,
+  .sectionEight {
+    padding-inline: 100px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .sectionTwo,
+  .sectionFour,
+  .sectionFive,
+  .sectionSix,
+  .sectionSeven,
+  .sectionEight {
+    padding-inline: 50px;
+  }
+
+  .sectionOne,
+  .sectionThree {
+    height: 40vh;
+  }
+
+  .heroSection,
+  .sectionThree div {
+    left: 30px;
+  }
+}

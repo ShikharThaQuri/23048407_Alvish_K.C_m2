@@ -1,0 +1,80 @@
+.recsectionOne {
+  height: 100vh;
+
+  background-image: url(../assets/sasha-sashina-Xcscr_sNSEY-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-color: antiquewhite;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  z-index: 100;
+  height: 80%;
+}
+.heroSection p {
+  font-size: 30px;
+  color: white;
+}
+
+/* OurTeam */
+
+.AdoptDog {
+  padding-block: 50px;
+  padding-inline: 120px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.AdoptDog h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.AdoptDog p {
+  font-size: 20px;
+}
+
+.OurTeamFirst {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 50px 30px;
+  text-align: center;
+}
+
+.OurTeamFirst div img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.OurTeamFirst div {
+  width: 350px;
+}
+.OurTeamFirst div h3 {
+  margin-block: 30px;
+}
+.OurTeamFirst div p {
+  font-size: 15px;
+}
+.OurTeamFirst div .semiBold {
+  font-weight: bold;
+}
+
+.SuccessStory {
+  padding-block: 50px;
+  padding-inline: 120px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.SuccessStory h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.SuccessStory .OurTeamFirst div h4 {
+  margin-block: 30px;
+}

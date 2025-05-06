@@ -1,0 +1,96 @@
+.pop-up-Donation,
+.pop-up-billForm {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px 15px;
+  background-color: #fefefe;
+  z-index: 50;
+
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+}
+.pop-up-Donation img,
+.pop-up-billForm img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px 0;
+}
+
+form .mainFormDivFirst {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form .one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 10px 20px;
+  gap: 10px;
+}
+form .two {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 16px;
+  margin-block: 12px 6px;
+}
+form input,
+select {
+  font-size: 16px;
+  padding: 6px 5px;
+  outline: none;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttonDiv button {
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.onebutton {
+  background-color: transparent;
+  border-style: solid;
+}
+.twobutton {
+  color: white;
+  background-color: #9dbdb8;
+}
+
+.buttonDiv-Donation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.buttonDiv-Donation button {
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
