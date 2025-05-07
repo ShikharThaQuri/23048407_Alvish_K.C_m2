@@ -98,6 +98,7 @@ header {
 }
 header .headerDiv {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
@@ -111,12 +112,14 @@ header .headerDiv {
 }
 
 .logo-img {
-  width: 100px;
+  width: 60px;
   height: auto;
 }
 
 nav ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
 }
 
@@ -152,9 +155,10 @@ nav ul li a:hover {
 /* media */
 
 @media screen and (max-width: 900px) {
-  .logo {
-    display: none;
+  nav ul li {
+    margin-left: 5px;
   }
+
   header .headerDiv {
     justify-content: center;
     padding: 30px 40px;

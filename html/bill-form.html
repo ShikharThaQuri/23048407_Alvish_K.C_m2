@@ -40,7 +40,7 @@
           <div class="logo">
             <a href="/"
               ><img
-                src="../assets/White_Illustrative_Dog_Shelter_Logo-removebg-preview.png"
+                src="../assets/logo.png"
                 alt="Tail of Hopes Logo"
                 class="logo-img"
             /></a>
@@ -68,13 +68,19 @@
       <div class="mainFormDiv">
         <div class="mainFormDivFirst">
           <label for="name">Name on invoice</label>
-          <input required type="text" />
+          <input id="fname" type="text" />
+          <p id="fnamep" class="fname">You must provide your full name</p>
+
           <label for="esewa no">Esewa No</label>
-          <input required type="number" />
+          <input id="esewa" type="number" />
+          <p id="esewap" class="esewa">You must provide your esewa no.</p>
+
           <label for="email">Email address</label>
-          <input required type="email" />
+          <input id="email" type="email" />
+          <p id="emailp" class="email">You must provide email.</p>
+
           <label for="Country">Country</label>
-          <select required name="Country" id="">
+          <select id="country" name="Country" id="">
             <option value="" hidden disabled selected="selected">
               Select One...
             </option>
@@ -82,22 +88,32 @@
             <option value="India">India</option>
             <option value="China">China</option>
           </select>
+          <p id="countryp" class="country">
+            you must provide your country name.
+          </p>
+
           <label for="Street address">Street address</label>
-          <input required type="text" />
+          <input id="address" type="text" />
+          <p id="addressp" class="address">
+            you must provide your street address.
+          </p>
         </div>
 
         <div class="one">
           <div class="two">
             <label for="city">City</label>
-            <input required type="text" name="" id="" />
+            <input id="city" type="text" />
+            <p id="cityp" class="city">You must provide your city name.</p>
           </div>
           <div class="two">
             <label for="">State / Province</label>
-            <input required type="text" />
+            <input id="state" type="text" />
+            <p id="statep" class="state">you must provide your state name.</p>
           </div>
           <div class="two">
             <label for="Zip / Postal Code">Zip / Postal Code</label>
-            <input required type="number" />
+            <input id="zip" type="number" />
+            <p id="zipp" class="zip">you must provide your zip code.</p>
           </div>
         </div>
         <div class="buttonDiv">
@@ -153,6 +169,6 @@
       </div>
     </section>
 
-    <script src="../js/bill.form.js"></script>
+    <script src="../js/bill-form.js"></script>
   </body>
 </html>

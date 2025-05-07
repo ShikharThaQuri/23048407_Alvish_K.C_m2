@@ -81,15 +81,23 @@
   display: flex;
   flex-direction: column;
 }
+.right form .fname,
+.email,
+.subject,
+.message {
+  opacity: 0;
+  color: red;
+}
 .right form input {
   width: 100%;
-  font-size: 22px;
+  font-size: 16px;
+  padding: 8px 12px;
   outline: none;
 }
 .right form textarea {
   width: 100%;
   height: 100px;
-  margin-block: 10px 20px;
+  margin-block: 10px 0;
   padding: 5px 10px;
   outline: none;
   font-size: 16px;
@@ -105,7 +113,10 @@
   height: none;
 }
 .right div label {
-  margin-top: 7px;
+  margin-top: 0;
+}
+.right label {
+  margin-top: 20px;
 }
 
 .right button {

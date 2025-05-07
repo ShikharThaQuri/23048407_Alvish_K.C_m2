@@ -38,7 +38,7 @@
           <div class="logo">
             <a href="../index.html"
               ><img
-                src="../assets/White_Illustrative_Dog_Shelter_Logo-removebg-preview.png"
+                src="../assets/logo.png"
                 alt="Tail of Hopes Logo"
                 class="logo-img"
             /></a>
@@ -79,18 +79,20 @@
         <h1>Feedback Form</h1>
         <form id="subBtn" action="">
           <label for="name">name</label>
-          <input required type="text" />
+          <input id="fname" type="text" />
+          <p id="fnamep" class="fname">You must provide your name.</p>
+
           <label for="">Email</label>
-          <input required type="email" />
+          <input id="email" type="email" />
+          <p id="emailp" class="email">you must provide your email.</p>
+
           <label for="">Subject</label>
-          <input required type="text" />
+          <input id="subject" type="text" />
+          <p id="subjectp" class="subject">you must provide subject.</p>
+
           <label for="">Message</label>
-          <textarea
-            required
-            name=""
-            id=""
-            placeholder="Type Your Message..."
-          ></textarea>
+          <textarea id="message" placeholder="Type Your Message..."></textarea>
+          <p id="messagep" class="message">you must provide some message</p>
           <div>
             <input type="checkbox" />
             <label for="">I accept the terms</label>

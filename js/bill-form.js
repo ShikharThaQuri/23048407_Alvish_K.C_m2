@@ -1,11 +1,10 @@
-var modal = document.getElementById("pop-up-Donation");
+var modal = document.getElementById("pop-up-billForm");
 
 var btn = document.getElementById("subBtn");
 
 var fname = document.getElementById("fname");
 var esewa = document.getElementById("esewa");
 var email = document.getElementById("email");
-var amount = document.getElementById("amount");
 var country = document.getElementById("country");
 var address = document.getElementById("address");
 var city = document.getElementById("city");
@@ -15,7 +14,6 @@ var zip = document.getElementById("zip");
 var fnamep = document.getElementById("fnamep");
 var esewap = document.getElementById("esewap");
 var emailp = document.getElementById("emailp");
-var amountp = document.getElementById("amountp");
 var countryp = document.getElementById("countryp");
 var addressp = document.getElementById("addressp");
 var cityp = document.getElementById("cityp");
@@ -28,7 +26,6 @@ btn.onsubmit = function (event) {
   checkValue(fname, fnamep);
   checkValue(esewa, esewap);
   checkValue(email, emailp);
-  checkValue(amount, amountp);
   checkValue(country, countryp);
   checkValue(address, addressp);
   checkValue(city, cityp);
@@ -39,7 +36,6 @@ btn.onsubmit = function (event) {
     !fname.value == "" &&
     !esewa.value == "" &&
     !email.value == "" &&
-    !amount.value == "" &&
     !country.value == "" &&
     !address.value == "" &&
     !city.value == "" &&
@@ -63,5 +59,4 @@ function checkValue(valueName1, valueName2) {
 
 function timeOut() {
   modal.style.display = "none";
-  console.log("Hello World");
 }

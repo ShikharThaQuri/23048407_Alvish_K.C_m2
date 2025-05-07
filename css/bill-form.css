@@ -33,6 +33,19 @@ form {
   padding: 50px 120px;
 }
 
+form .mainFormDiv .fname,
+.esewa,
+.email,
+.amount,
+.country,
+.address,
+.city,
+.state,
+.zip {
+  opacity: 0;
+  color: red;
+}
+
 form .mainFormDiv {
   width: 100%;
 }
