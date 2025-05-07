@@ -123,7 +123,7 @@
 }
 
 .Volunteer h1 {
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .Volunteer form {
@@ -133,6 +133,17 @@
   flex-direction: column;
 }
 
+form .fname,
+.lname,
+.email,
+.phoneno,
+.saddress,
+.city,
+.state,
+.zip {
+  opacity: 0;
+  color: red;
+}
 form .one {
   display: flex;
   width: 100%;
@@ -148,7 +159,7 @@ form input {
   font-size: 18px;
   padding: 5px 10px;
   outline: none;
-  margin-block: 5px 25px;
+  margin-block: 5px 5px;
 }
 
 .formButton {

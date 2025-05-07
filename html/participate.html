@@ -40,51 +40,59 @@
         <p>Your Volunteer Form has been sent.</p>
       </div>
 
-      <form id="subBtn" action="">
+      <form id="subBtn">
         <div class="one">
           <div class="two">
             <label for="name">First Name</label>
-            <input required type="text" />
+            <input id="fname" type="text" />
+            <p id="fnamep" class="fname">You must provide Your first name.</p>
           </div>
           <div class="two">
             <label for="last name">Last Name</label>
-            <input required type="text" />
+            <input id="lname" type="text" />
+            <p id="lnamep" class="lname">You must provide Your last name.</p>
           </div>
         </div>
 
         <label for="email">Email Address</label>
-        <input required type="email" />
+        <input id="email" type="email" />
+        <p id="emailp" class="email">You must provide your email.</p>
 
         <label for="phone no">Phone no</label>
-        <input
-          type="tel"
-          id="phone"
-          name="phone"
-          pattern="[0-9]{10}"
-          required
-        />
+        <input type="tel" pattern="[0-9]{10}" id="phoneno" />
+        <p id="phonenop" class="phoneno">You must provide your phone no.</p>
 
         <label for="Address">Street Address</label>
-        <input required type="text" />
+        <input id="saddress" type="text" />
+        <p id="saddressp" class="saddress">
+          You must provide your street address.
+        </p>
 
         <div class="one">
           <div class="two">
             <label for="city">City</label>
-            <input required type="text" />
+            <input id="city" type="text" />
+            <p id="cityp" class="city">You must provide your city name.</p>
           </div>
           <div class="two">
             <label for="">State / Province</label>
-            <input required type="text" />
+            <input id="state" type="text" />
+            <p id="statep" class="state">
+              You must provide your state or province
+            </p>
           </div>
           <div class="two">
             <label for="Zip / Postal Code">Zip / Postal Code</label>
-            <input required type="number" />
+            <input id="zip" type="number" />
+            <p id="zipp" class="zip">
+              You must provide your postal or zip code.
+            </p>
           </div>
         </div>
 
         <div class="formButton">
           <button class="formButtonOne">Cancel</button>
-          <button class="formButtonTwo">Submit</button>
+          <input type="submit" class="formButtonTwo" />
         </div>
       </form>
     </section>
@@ -199,7 +207,7 @@
     </section>
 
     <!-- connect js file -->
-    <script src="../js/style.js"></script>
     <script src="../js/volunteer.js"></script>
+    <script src="../js/style.js"></script>
   </body>
 </html>
