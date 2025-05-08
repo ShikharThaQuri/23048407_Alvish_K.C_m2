@@ -106,6 +106,7 @@ header .headerDiv {
 
 .hamburgerMenuIcon i {
   display: none;
+  color: white;
 }
 .close {
   display: none;
